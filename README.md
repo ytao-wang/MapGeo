@@ -1,6 +1,6 @@
-# MapGeo
-MapGeo: Bridging Ground and Map Views with Geometry-Guided Structural Modeling and Partial Matching
+# MapGeo: Bridging Ground and Map Views with Geometry-Guided Structural Modeling and Partial Matching
+Cross-view geo-localization (CVGL) typically relies on satellite references, while 2D maps have recently emerged as a lightweight and publicly accessible alternative for scalable localization. However, map-based CVGL remains underexplored and faces two key challenges: a large appearance-to-structure gap between appearance-rich ground images and structure-abstract maps; and partial cross-view correspondences caused by viewpoint variations, occlusions, and limited spatial overlap. 
+To this end, we propose MapGeo, a novel framework tailored for bridging ground and map views. Specifically, we introduce a Multi-Scale Local Relation Adapter (MLRA) to capture local consistent structural relations such as boundaries and junctions across the two views, while a Geometry-aware Mamba Block (GeoMB) propagates them with geometry-guided scanning for long-range reasoning. We further design a Partial Matching Constraint (PMC) to identify reliable partial correspondences across views. Extensive experiments show that our method improves +16.59\% R@1 over the strongest recent competitors.
 
-This code is based on the [EP-BEV](https://github.com/yejy53/EP-BEV) framework.
-
-Details of the datasets, training and inference can be found in EP-BEV.
+This code is based on the EP-BEV framework.
+**Details of the datasets, training and inference can be found in  [EP-BEV](https://github.com/yejy53/EP-BEV).**
