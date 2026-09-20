@@ -4,3 +4,6 @@ To this end, we propose MapGeo, a novel framework tailored for bridging ground a
 
 This code is based on the EP-BEV framework.
 **Details of the datasets, training and inference can be found in  [EP-BEV](https://github.com/yejy53/EP-BEV).**
+
+### Results
+We provide our pretrained results: Google Drive [MapGeo_weights_e50_82.3739_66.0015.pth](https://drive.google.com/file/d/1OGD2gGv4RUYyj0YUIC-gAAgwvdL_pCTs/view?usp=sharing)
